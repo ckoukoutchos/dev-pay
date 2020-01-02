@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dev-pay/static/css/main.9bee2228.chunk.css",
-    "main.js": "/dev-pay/static/js/main.25fda23f.chunk.js",
-    "main.js.map": "/dev-pay/static/js/main.25fda23f.chunk.js.map",
+    "main.js": "/dev-pay/static/js/main.8a0e0501.chunk.js",
+    "main.js.map": "/dev-pay/static/js/main.8a0e0501.chunk.js.map",
     "runtime-main.js": "/dev-pay/static/js/runtime-main.24404fd2.js",
     "runtime-main.js.map": "/dev-pay/static/js/runtime-main.24404fd2.js.map",
     "static/js/2.86877e01.chunk.js": "/dev-pay/static/js/2.86877e01.chunk.js",
     "static/js/2.86877e01.chunk.js.map": "/dev-pay/static/js/2.86877e01.chunk.js.map",
     "index.html": "/dev-pay/index.html",
-    "precache-manifest.52bfea5247816fc11ebbcdec0b578ad8.js": "/dev-pay/precache-manifest.52bfea5247816fc11ebbcdec0b578ad8.js",
+    "precache-manifest.357d45eda46622510151b4f9737d5291.js": "/dev-pay/precache-manifest.357d45eda46622510151b4f9737d5291.js",
     "service-worker.js": "/dev-pay/service-worker.js",
     "static/css/main.9bee2228.chunk.css.map": "/dev-pay/static/css/main.9bee2228.chunk.css.map",
     "static/js/2.86877e01.chunk.js.LICENSE": "/dev-pay/static/js/2.86877e01.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.24404fd2.js",
     "static/js/2.86877e01.chunk.js",
     "static/css/main.9bee2228.chunk.css",
-    "static/js/main.25fda23f.chunk.js"
+    "static/js/main.8a0e0501.chunk.js"
   ]
 }
