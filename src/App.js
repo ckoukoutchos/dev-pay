@@ -51,7 +51,7 @@ class App extends Component {
     if (ability !== '') {
       switch (ability) {
         case 0:
-          rates[1] = (rates[0] * 0.9).toFixed(1);
+          rates[1] = (rates[0] * 1.1).toFixed(1);
           break;
         case 1:
           rates[1] = +((rates[0] + rates[1]) / 2).toFixed(1);
@@ -71,27 +71,25 @@ class App extends Component {
     let mod = 1;
     if (!degree) {
       if (xp === 'Entry') {
-        mod -= 0.15;
-      } else if (xp === 'Early Career') {
         mod -= 0.1;
-      } else {
+      } else if (xp === 'Early Career') {
         mod -= 0.05;
+      } else {
+        mod -= 0.025;
       }
     }
     if (cs) {
       if (xp === 'Entry') {
-        mod += 0.1;
-      } else if (xp === 'Early Career') {
         mod += 0.05;
       } else {
         mod += 0.025;
       }
     }
     if (clientKnown) {
-      mod += 0.05
+      mod += 0.1
     }
     if (techClient) {
-      mod += 0.1
+      mod += 0.3
     }
     rates[1] = +(rates[1] * mod).toFixed(1);
   }
@@ -240,7 +238,7 @@ class App extends Component {
               />}
             </FormGroup>}
 
-            <FormControl>
+            <FormControl style={{ marginBottom: '8px' }}>
               <InputLabel id="qual-label">Ability</InputLabel>
               <Select
                 labelId="qual-label"
@@ -282,6 +280,7 @@ class App extends Component {
               <MenuItem value={'Blend'}>Blend</MenuItem>
               <MenuItem value={'PayScale'}>PayScale</MenuItem>
               <MenuItem value={'LinkedIn'}>LinkedIn</MenuItem>
+              <MenuItem value={'GlassDoor'}>GlassDoor</MenuItem>
             </Select>
           </FormControl>
         </Paper>
@@ -304,14 +303,14 @@ class App extends Component {
               <Typography variant="h6">
                 {`Base Pay: $${marketBase[1]}k`}
               </Typography>
-              <Typography variant="subtitle1" color="textSecondary">{`Range: $${marketBase[0]}k - $${marketBase[2]}k`}</Typography>
+              <Typography variant="subtitle1" color="textSecondary">{`Range: $${(marketBase[0]).toFixed(1)}k - $${(marketBase[2]).toFixed(1)}k`}</Typography>
             </div>
 
             <div style={{ margin: '8px 8px 8px 48px' }}>
               <Typography variant="h6">
                 {`Bonus Pay: $${marketBonus[1]}k`}
               </Typography>
-              <Typography variant="subtitle1" color="textSecondary">{`Range: $${marketBonus[0]}k - $${marketBonus[2]}k`}</Typography>
+              <Typography variant="subtitle1" color="textSecondary">{`Range: $${(marketBonus[0]).toFixed(1)}k - $${(marketBonus[2]).toFixed(1)}k`}</Typography>
             </div>
           </div>
 

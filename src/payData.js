@@ -159,5 +159,85 @@ export default {
         bonus: [2, 4, 54]
       }
     }
+  },
+  GlassDoor: {
+    'Entry': {
+      Baltimore: {
+        base: [49, 70, 94],
+        bonus: [1, 6, 16]
+      },
+      Boston: {
+        base: [55, 73, 96],
+        bonus: [1, 7, 17]
+      },
+      Chicago: {
+        base: [49, 68, 91],
+        bonus: [1, 6, 16]
+      },
+      Denver: {
+        base: [47, 67, 89],
+        bonus: [1, 6, 16]
+      },
+      Portland: {
+        base: [49, 71, 93],
+        bonus: [1, 6, 16]
+      },
+      US: {
+        base: [51, 78, 110],
+        bonus: [1, 7, 18]
+      }
+    },
+    'Early Career': {
+      Baltimore: {
+        base: [58, 74, 97],
+        bonus: [1, 6, 17]
+      },
+      Boston: {
+        base: [58, 77, 102],
+        bonus: [1, 7, 17]
+      },
+      Chicago: {
+        base: [53, 73, 94],
+        bonus: [1, 6, 17]
+      },
+      Denver: {
+        base: [55, 71, 92],
+        bonus: [1, 6, 16]
+      },
+      Portland: {
+        base: [58, 75, 97],
+        bonus: [1, 6, 17]
+      },
+      US: {
+        base: [53, 78, 112],
+        bonus: [1, 7, 18]
+      }
+    },
+    'Mid Career': {
+      Baltimore: {
+        base: [60, 82, 108],
+        bonus: [2, 7, 18]
+      },
+      Boston: {
+        base: [66, 86, 111],
+        bonus: [2, 7, 19]
+      },
+      Chicago: {
+        base: [57, 78, 103],
+        bonus: [2, 7, 18]
+      },
+      Denver: {
+        base: [58, 78, 102],
+        bonus: [2, 7, 17]
+      },
+      Portland: {
+        base: [61, 82, 108],
+        bonus: [2, 7, 18]
+      },
+      US: {
+        base: [61, 87, 123],
+        bonus: [2, 7, 19]
+      }
+    }
   }
 }
