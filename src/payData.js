@@ -239,5 +239,85 @@ export default {
         bonus: [2, 7, 19]
       }
     }
+  },
+  'Salary.com': {
+    'Entry': {
+      Baltimore: {
+        base: [54, 69, 82],
+        bonus: [0, 2, 3]
+      },
+      Boston: {
+        base: [61, 77, 93],
+        bonus: [0, 2, 3]
+      },
+      Chicago: {
+        base: [54, 69, 82],
+        bonus: [0, 2, 3]
+      },
+      Denver: {
+        base: [55, 69, 83],
+        bonus: [0, 2, 3]
+      },
+      Portland: {
+        base: [56, 71, 85],
+        bonus: [0, 3, 4]
+      },
+      US: {
+        base: [56, 72, 84],
+        bonus: [0, 2, 3]
+      }
+    },
+    'Early Career': {
+      Baltimore: {
+        base: [72, 88, 106],
+        bonus: [2, 3, 5]
+      },
+      Boston: {
+        base: [72, 88, 106],
+        bonus: [2, 3, 5]
+      },
+      Chicago: {
+        base: [72, 88, 106],
+        bonus: [2, 3, 5]
+      },
+      Denver: {
+        base: [72, 88, 106],
+        bonus: [2, 3, 5]
+      },
+      Portland: {
+        base: [72, 88, 106],
+        bonus: [2, 3, 5]
+      },
+      US: {
+        base: [72, 88, 106],
+        bonus: [2, 3, 5]
+      }
+    },
+    'Mid Career': {
+      Baltimore: {
+        base: [93, 112, 132],
+        bonus: [3, 5, 8]
+      },
+      Boston: {
+        base: [91, 109, 128],
+        bonus: [2, 5, 8]
+      },
+      Chicago: {
+        base: [96, 116, 136],
+        bonus: [3, 4, 8]
+      },
+      Denver: {
+        base: [91, 109, 128],
+        bonus: [2, 5, 8]
+      },
+      Portland: {
+        base: [90, 109, 128],
+        bonus: [3, 4, 9]
+      },
+      US: {
+        base: [92, 110, 130],
+        bonus: [3, 5, 8]
+      }
+    }
   }
 }

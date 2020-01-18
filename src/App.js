@@ -89,7 +89,7 @@ class App extends Component {
       mod += 0.1
     }
     if (techClient) {
-      mod += 0.3
+      mod += 0.2
     }
     rates[1] = +(rates[1] * mod).toFixed(1);
   }
@@ -281,6 +281,7 @@ class App extends Component {
               <MenuItem value={'PayScale'}>PayScale</MenuItem>
               <MenuItem value={'LinkedIn'}>LinkedIn</MenuItem>
               <MenuItem value={'GlassDoor'}>GlassDoor</MenuItem>
+              <MenuItem value={'Salary.com'}>Salary.com</MenuItem>
             </Select>
           </FormControl>
         </Paper>
@@ -301,7 +302,7 @@ class App extends Component {
           <div style={{ display: 'flex' }}>
             <div style={{ margin: '8px' }}>
               <Typography variant="h6">
-                {`Base Pay: $${marketBase[1]}k`}
+                {`Base Pay: $${(marketBase[1]).toFixed(1)}k`}
               </Typography>
               <Typography variant="subtitle1" color="textSecondary">{`Range: $${(marketBase[0]).toFixed(1)}k - $${(marketBase[2]).toFixed(1)}k`}</Typography>
             </div>
